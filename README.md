@@ -12,9 +12,9 @@ choosing the best website to buy
 ### State Space
 The state space consists of the different options available for the customer to choose from:
 ```
-State 0: Option A
-State 1: Option B
-State 2: Option C
+State 0: Website A
+State 1: Website B
+State 2: Website C
 ```
 
 ### Sample State
@@ -28,12 +28,12 @@ Action 1: Switch to the next option
 ```
 
 ### Sample Action
-A sample action could be the customer deciding to switch from Option A to Option B.
+A sample action could be the customer deciding to switch from Website A to Website B.
 
 ### Reward Function
 ```
 The customer receives a reward of 0 for staying with the current option.
-If the customer switches to the last option (Option C), they receive a reward of 1.
+If the customer switches to the last option (Website C), they receive a reward of 1.
 There are no intermediate rewards for other actions or states.
 ```
 
@@ -68,5 +68,5 @@ P = {
 
 ## RESULT:
 
-The optimal strategy is to serve seated customers promptly, maximizing profit and ensuring efficient table turnover.
+Thus the given real world problem is successfully represented in a MDP form .
 
