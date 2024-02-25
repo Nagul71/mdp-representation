@@ -1,7 +1,7 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+To represent any one real-world problem in MDP form.
 
 ## PROBLEM STATEMENT:
 A customer is planning to buy a product online. They have three websites to choose from: Option A, Option B, and Option C. The customer wants to select the best website based on their preferences and the associated rewards.
