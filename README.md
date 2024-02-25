@@ -38,8 +38,8 @@ There are no intermediate rewards for other actions or states.
 ```
 
 ### Graphical Representation
-![Screenshot 2024-02-25 204439](https://github.com/Nagul71/mdp-representation/assets/118661118/8ab226d5-968f-4165-b900-fab5b5612d7b)
 
+![WhatsApp Image 2024-02-25 at 21 02 00_b9298ddd](https://github.com/Nagul71/mdp-representation/assets/118661118/8f6d90eb-32bc-488c-b66c-6136f15165f6)
 
 
 ## PYTHON REPRESENTATION:
@@ -63,6 +63,7 @@ P = {
 
 ## OUTPUT:
 
+![Screenshot 2024-02-25 204439](https://github.com/Nagul71/mdp-representation/assets/118661118/8ab226d5-968f-4165-b900-fab5b5612d7b)
 
 
 ## RESULT:
