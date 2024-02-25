@@ -4,55 +4,65 @@
 Write your aim here
 
 ## PROBLEM STATEMENT:
-The problem involves managing a restaurant's seating arrangement during peak hours. The restaurant has limited seating capacity and receives a continuous stream of customers throughout the day. The goal is to maximize the restaurant's profit while ensuring customer satisfaction by efficiently managing the seating arrangements.
+A customer is planning to buy a product online. They have three websites to choose from: Option A, Option B, and Option C. The customer wants to select the best website based on their preferences and the associated rewards.
 
 ### Problem Description
-Write your answer here
+choosing the best website to buy
 
 ### State Space
-The state space consists of three possible states:
+The state space consists of the different options available for the customer to choose from:
 ```
-Empty
-Seated
-Served
+State 0: Option A
+State 1: Option B
+State 2: Option C
 ```
 
 ### Sample State
-Seated
+A sample state could be the customer currently considering website B.
 
 ### Action Space
-Action space conssists of 0 and 1
+The action space consists of the decisions the customer can make:
+```
+Action 0: Stay with the current option
+Action 1: Switch to the next option
+```
 
 ### Sample Action
-A sample action could be 1
+A sample action could be the customer deciding to switch from Option A to Option B.
 
 ### Reward Function
-Write your answer here
+```
+The customer receives a reward of 0 for staying with the current option.
+If the customer switches to the last option (Option C), they receive a reward of 1.
+There are no intermediate rewards for other actions or states.
+```
 
 ### Graphical Representation
-Write your answer here
+![Screenshot 2024-02-25 204439](https://github.com/Nagul71/mdp-representation/assets/118661118/8ab226d5-968f-4165-b900-fab5b5612d7b)
+
+
 
 ## PYTHON REPRESENTATION:
 ```py
-mdp = {
-    "Empty": {
-         0 : [(0.6, "Empty", 0, False),(0.4, "Seated", 0, False)],
-        1 : [(0.1, "Empty", 0, False),(0.9, "Seated", 0, False)]
+P = {
+    0:{
+        0: [(1.0, 0, 0.0, True)],  
+        1: [(1.0, 1, 0.0, True)]   
     },
-    "Seated": {
-        0 : [(0.3, "Seated", 0, False),(0.7, "Empty", 0, False)],
-        1 : [(0.7, "Seated", 0, False),(0.3, "Served", 1, True)]
+    1:{
+        0: [(1.0, 1, 0.0, True)],  
+        1: [(1.0, 2, 1.0, True)]   
     },
-    "Served": {
-        0 : [(1.0, "Served", 0, False)],
-        1 : [(1.0, "Empty", 0, False)]
+    2:{
+        0: [(1.0, 2, 0.0, True)],  
+        1: [(1.0, 2, 0.0, True)]   
     }
 }
 ```
 
 
 ## OUTPUT:
-![image](https://github.com/Nagul71/mdp-representation/assets/118661118/5bc4536f-129e-4b71-b25e-bd234d3a0d04)
+
 
 
 ## RESULT:
