@@ -41,6 +41,11 @@ There are no intermediate rewards for other actions or states.
 
 ![WhatsApp Image 2024-02-25 at 21 02 00_b9298ddd](https://github.com/Nagul71/mdp-representation/assets/118661118/8f6d90eb-32bc-488c-b66c-6136f15165f6)
 
+```
+Developed By:
+Name : NAGUL K
+Reg No : 212222230089
+
 
 ## PYTHON REPRESENTATION:
 ```py
